@@ -1,0 +1,2 @@
+# R5T.Dimitrios.Maoursi
+A Maoursi-based (organizations directory path) implmentation of the IOrganizationDirectoryPathProvider service for the Dimitrios project.
