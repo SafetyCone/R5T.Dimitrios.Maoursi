@@ -1,14 +1,14 @@
-﻿using System;
+using System;
 
 using R5T.Egaleo;
 using R5T.Lombardy;
 using R5T.Maoursi;
-using R5T.Oxford;
+using R5T.Oxford;using R5T.T0064;
 
 
 namespace R5T.Dimitrios.Maoursi
-{
-    public class OrganizationDirectoryPathProvider : IOrganizationDirectoryPathProvider
+{[ServiceImplementationMarker]
+    public class OrganizationDirectoryPathProvider : IOrganizationDirectoryPathProvider,IServiceImplementation
     {
         private IOrganizationsDirectoryPathProvider OrganizationsDirectoryPathProvider { get; }
         private IOrganizationProvider OrganizationProvider { get; }
